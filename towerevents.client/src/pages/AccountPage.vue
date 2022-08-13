@@ -1,7 +1,7 @@
 <template>
   <div class="about text-center">
     <h1>Welcome {{ account.name }}</h1>
-    <img class="rounded" :src="account.picture" alt="" />
+    <img class="rounded" :src="account.picture" alt="Account Picture" />
     <p>{{ account.email }}</p>
   </div>
 </template>
@@ -19,7 +19,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 img {
   max-width: 100px;
 }

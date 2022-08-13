@@ -3,13 +3,12 @@
     <Navbar />
   </header>
   <main>
-    <router-view />
-  </main>
-  <footer>
-    <div class="bg-dark text-light text-center p-4">
-      Made with 💖 by CodeWorks
+    <div class="container bg-white">
+      
+      <router-view />
     </div>
-  </footer>
+  </main>
+
 </template>
 
 <script>
